@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advance Table</title>
+    <style>
+        table{
+            width: 50%;
+            margin: 50px auto;
+            /* Remove double border */
+            border-collapse: collapse;
+        }
+
+
+        tr:nth-child(1),tr:last-child {
+            background: rgb(99, 91, 91);
+            color: #fff;
+        }
+
+        tr:hover {
+            background-color: #8d2d2d;
+            color: #fff;
+        }
+
+    </style>
+</head>
+<body>
+    <table border="1" cellspacing="0" cellpadding="15px">
+        <!-- heading -->
+        <tr>
+            <th colspan="2">Name</th>
+            <th>Age</th>
+        </tr>
+        
+        <!-- datas -->
+        <tr>
+            <td>Ram</td>
+            <td>Sita</td>
+            <td>27</td>
+        </tr>
+        <tr>
+            <td>Harry</td>
+            <td>Peter</td>
+            <td>32</td>
+        </tr>
+
+        <tr>
+            <th rowspan="2">interest</th>
+            <td>swimming</td>
+            <td>dancing</td>
+        </tr>
+
+        <tr>
+            <td>swimming</td>
+            <td>dancing</td>
+        </tr>
+
+        <tr>
+            <th colspan="3">Advance Table</th>
+        </tr>
+    </table>
+</body>
+</html>
